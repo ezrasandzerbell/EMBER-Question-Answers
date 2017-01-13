@@ -18,15 +18,15 @@
   "answers": [{
     "author": "Susan",
     "answer": "Seven",
-    "question": "How many notes in a scale?"
+    "question": ""
   }, {
     "author": "Sarah",
     "answer": "At least three",
-    "question": "How many notes in a chord?"
+    "question": ""
   },
   {
     "author": "Paul",
     "answer": "eighty-eight",
-    "question": "How many keys on a piano?"
+    "question": ""
   }]
 }
