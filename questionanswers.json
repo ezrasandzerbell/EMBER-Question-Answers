@@ -1,0 +1,31 @@
+{ "questions": [{
+    "author": "Michael",
+    "notes": "San Francisco",
+    "question": "How many notes in a scale?",
+    "answer": "Seven"
+  }, {
+    "author": "John",
+    "notes": "San Francisco",
+    "question": "How many notes in a chord?",
+    "answer": "At least three"
+  }, {
+    "author": "Taylor",
+    "notes": "How many keys on a piano?",
+    "question": "How many keys on a piano?",
+    "answer": "eighty-eight"
+  }],
+  "answers": [{
+    "author": "Susan",
+    "answer": "Seven",
+    "question": "How many notes in a scale?"
+  }, {
+    "author": "Sarah",
+    "answer": "At least three",
+    "question": "How many notes in a chord?"
+  },
+  {
+    "author": "Paul",
+    "answer": "eighty-eight",
+    "question": "How many keys on a piano?"
+  }]
+}
