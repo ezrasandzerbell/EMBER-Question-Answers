@@ -1,1 +1,20 @@
-{{yield}}
+{{#if askNewQuestion}}
+  <h3>Create a new entry</h3>
+  <form>
+    <div class="form-group">
+      <label for="author">What is your name?</label>
+      {{input value=author class="form-control"}}
+    </div>
+    <div class="form-group">
+      <label for="question">What is your question?</label>
+      {{textarea value=question class="form-control"}}
+    </div>
+    <div class="form-group">
+      <label for="notes">Do you have any extra notes to add?</label>
+      {{input value=notes class="form-control" placeholder="Additional notes"}}
+    </div>
+    <button class="btn btn-sm btn-default" {{action 'saveQuestion'}}>Submit</button>
+  </form>
+{{else}}
+  <button class="btn btn-sm btn-default" {{action 'newQuestion'}}>New Question</button>
+{{/if}}

@@ -1,16 +1,16 @@
 { "questions": [{
     "author": "Michael",
-    "notes": "San Francisco",
+    "notes": "I would like to know about the major and minor scales",
     "question": "How many notes in a scale?",
     "answer": "Seven"
   }, {
     "author": "John",
-    "notes": "San Francisco",
+    "notes": "I am trying to figure out how to play major and minor chords",
     "question": "How many notes in a chord?",
     "answer": "At least three"
   }, {
     "author": "Taylor",
-    "notes": "How many keys on a piano?",
+    "notes": "I am wondering if all pianos have the same number of keys",
     "question": "How many keys on a piano?",
     "answer": "eighty-eight"
   }],

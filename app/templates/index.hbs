@@ -1,1 +1,9 @@
-<p> test </p>
+<p>Do you have questions about music theory? You've come to the right place!</p>
+
+    {{#each model as |question|}}
+      <h4>{{question.question}}</h4>
+      <p><small>Asked by {{question.author}}. {{#link-to 'question' question.id}}View Question{{/link-to}}</small></p>
+    {{/each}}
+<br>
+<br>
+    {{question-tile saveQuestion='saveQuestion'}}
