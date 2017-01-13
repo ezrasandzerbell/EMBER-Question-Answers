@@ -1,12 +1,13 @@
-<h3>{{model.question}}</h3>
-<h5>{{model.author}}</h5>
+<h3><center>{{model.question}}</center></h3>
+<h5>Username: {{model.author}}</h5>
 <p>Notes: {{model.notes}}</p>
 
 {{edit-question updateQuestion='updateQuestion' question=model}}
 {{answer-tile saveAnswer='saveAnswer' question=model}}
 <br>
 {{#each model.answers as |answer|}}
-  {{answer.author}}
-  {{answer.answer}}
+  Username: {{answer.author}}
   <br>
+  Answer: {{answer.answer}}
+  <br><br><br>
 {{/each}}
