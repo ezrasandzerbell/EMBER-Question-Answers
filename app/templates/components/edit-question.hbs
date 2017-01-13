@@ -1,0 +1,22 @@
+{{#if updatedQuestion}}
+  <hr>
+  <h3>Update Your Question</h3>
+  <form>
+    <div class="form-group">
+      <label for="author">What is your name?</label>
+      {{input value=author class="form-control"}}
+    </div>
+    <div class="form-group">
+      <label for="notes">Do you have any extra notes to add?</label>
+      {{input value=notes class="form-control"}}
+    </div>
+    <div class="form-group">
+      <label for="question">What is your question?</label>
+      {{input value=question class="form-control"}}
+    </div>
+    <button class="btn btn-primary" {{action 'update' model}}>Update</button>
+    <button class="btn btn-danger" {{action 'noUpdate' model}}>Cancel</button>
+  </form>
+{{else}}
+  <button class="btn btn-primary" {{action 'updateQuestion'}}>Update Question</button>
+{{/if}}

@@ -2,8 +2,9 @@
 <h5>{{model.author}}</h5>
 <p>Notes: {{model.notes}}</p>
 
+{{edit-question updateQuestion='updateQuestion' question=model}}
 {{answer-tile saveAnswer='saveAnswer' question=model}}
-
+<br>
 {{#each model.answers as |answer|}}
   {{answer.author}}
   {{answer.answer}}
