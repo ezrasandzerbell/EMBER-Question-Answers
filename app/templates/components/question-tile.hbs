@@ -1,4 +1,4 @@
-{{#if askNewQuestion}}
+{{#if askQuestion}}
   <h3>Create a new entry</h3>
   <form>
     <div class="form-group">
@@ -11,10 +11,10 @@
     </div>
     <div class="form-group">
       <label for="notes">Do you have any extra notes to add?</label>
-      {{input value=notes class="form-control" placeholder="Additional notes"}}
+      {{input value=notes class="form-control"}}
     </div>
-    <button class="btn btn-sm btn-default" {{action 'saveQuestion'}}>Submit</button>
+    <button class="btn btn-primary" {{action 'saveQuestion'}}>Submit</button>
   </form>
 {{else}}
-  <button class="btn btn-sm btn-default" {{action 'newQuestion'}}>New Question</button>
+  <button class="btn btn-primary" {{action 'newQuestion'}}>New Question</button>
 {{/if}}
