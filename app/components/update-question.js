@@ -15,8 +15,8 @@ export default Ember.Component.extend({
         notes: this.get('noteUpdate'),
         question: this.get('questionUpdate')
       };
-      this.sendAction('update', question, params);
       this.set('updatedQuestion', false);
+      this.sendAction('update', question, params);
       console.log(params);
     }
   }
