@@ -2,7 +2,7 @@
 <h5>Username: {{model.author}}</h5>
 <p>Notes: {{model.notes}}</p>
 
-{{update-question updateQuestion='updateQuestion' question=model}}
+{{update-question update='update' question=model}}
 {{answer-tile saveAnswer='saveAnswer' question=model}}
 <button {{action 'delete' model}}>Delete</button>
 <br>
